@@ -16,13 +16,13 @@ public class Bullets : MonoBehaviour
     private Vector3 initialPosition; //vị trí ban đầu của viên đạn
     private Vector3 shootDirection; //hướng bắn của viên đạn
 
-
+    private GameManager gameManager;
 
     void Start()
     {
         initialPosition = transform.position;
         transform.position = player.position + new Vector3(radius, 0, 0);
-    
+        gameManager = FindObjectOfType<GameManager>();
     }
     void Update()
     {
@@ -53,8 +53,7 @@ public class Bullets : MonoBehaviour
             transform.position.y < 0 || 
             transform.position.y > Screen.height)
         {
-            //ResetBullet();
-            SceneManager.LoadScene("Menu");
+            ResetBullet();
         }
     }
 
@@ -63,7 +62,6 @@ public class Bullets : MonoBehaviour
         transform.position = player.position + new Vector3(radius, 0, 0);
         isShooting = false;
     }
-    //get color bullet
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -73,7 +71,9 @@ public class Bullets : MonoBehaviour
             Color bulletcolor = bullet.color;
             Image enemy = collision.GetComponent<Image>();
             enemy.color = bulletcolor;
+            gameManager.OnBulletHitEmeny(collision.gameObject);
             ResetBullet();
+
         }
     }
 }

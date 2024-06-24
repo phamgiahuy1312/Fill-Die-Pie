@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 using UnityEngine.UIElements;
 
-public class EmenySpawner : MonoBehaviour
+public class EnenySpawner : MonoBehaviour
 {
     public Transform player;
     public RectTransform canvasTransform;
@@ -15,13 +15,13 @@ public class EmenySpawner : MonoBehaviour
     public GameObject enemyPrefab;
     void Start()
     {
-        numberOfEnemies = Random.Range(3,9);
         SpawnAroundPlayer();
     }
 
     // Update is called once per frame
-    void SpawnAroundPlayer()
+    public void SpawnAroundPlayer()
     {
+        numberOfEnemies = Random.Range(3, 9);
         float angleStep = 360f / numberOfEnemies;
         for (int i = 0; i < numberOfEnemies; i++)
         {
@@ -31,7 +31,6 @@ public class EmenySpawner : MonoBehaviour
             Vector3 enemyPosition = new Vector3(posX, posY, 0);
             GameObject newEnemy = Instantiate(enemyPrefab, enemyPosition, Quaternion.identity, canvasTransform);
             newEnemy.tag = "Enemy";
-
         }
     }
 
