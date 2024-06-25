@@ -78,11 +78,14 @@ public class VolumeSetting : MonoBehaviour
         Image backgroundSwitchImage = backgroundSwitch.GetComponent<Image>();
         if (state == -1)
         {
-            backgroundSwitchImage.color = Color.green;
+            //set background color #1E1D6D
+            backgroundSwitchImage.color = new Color32(30, 29, 109, 255);
+
         }
         else
         {
-            backgroundSwitchImage.color = Color.white;
+            //set background color #CECECE 
+            backgroundSwitchImage.color = new Color32(206, 206, 206, 255);
         }
     }
 }
