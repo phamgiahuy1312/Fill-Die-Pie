@@ -8,12 +8,37 @@ public class GameManager : MonoBehaviour
 {
 
     public float timedlayspawn = 2f;
-    private EnenySpawner enemySpawner;
+    private EnemySpawner enemySpawner;
+    public Text scoreText;
+    private int score;
+
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Start()
     {
-        enemySpawner = FindObjectOfType<EnenySpawner>();
+        score = 0;
+        enemySpawner = FindObjectOfType<EnemySpawner>();
     }
 
+    private void IncrementScore()
+    {
+        score++;
+        scoreText.text = score.ToString();
+        CheckBestScore();
+    }
+
+    private void CheckBestScore()
+    {
+        int bestSCore = PlayerPrefs.GetInt("", 0);
+        if (score > bestSCore)
+        {
+            PlayerPrefs.SetInt("", score);
+        }
+    }
 
     public void OnBulletHitEmeny(GameObject enemy)
     {
@@ -28,6 +53,8 @@ public class GameManager : MonoBehaviour
         {
             print("All enemies shooted");
             DestroyAllShootedEnemies();
+            audioManager.PlaySFX(audioManager.Win);
+            IncrementScore();
             StartCoroutine(DelaySpawnEnemies());
         }
     }
