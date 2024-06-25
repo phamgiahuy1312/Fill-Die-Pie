@@ -18,6 +18,13 @@ public class Bullets : MonoBehaviour
 
     private GameManager gameManager;
 
+    AudioManager audioManager;
+
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
     void Start()
     {
         initialPosition = transform.position;
@@ -53,7 +60,7 @@ public class Bullets : MonoBehaviour
             transform.position.y < 0 || 
             transform.position.y > Screen.height)
         {
-            ResetBullet();
+            SceneManager.LoadScene("Menu");
         }
     }
 
@@ -67,6 +74,7 @@ public class Bullets : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            audioManager.PlaySFX(audioManager.ShootEnemy);
             Image bullet = GetComponent<Image>();
             Color bulletcolor = bullet.color;
             Image enemy = collision.GetComponent<Image>();
