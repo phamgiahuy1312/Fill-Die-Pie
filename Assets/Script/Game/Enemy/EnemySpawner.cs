@@ -18,7 +18,7 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
-        SpawnAroundPlayer();
+        SpawnAroundPlayer(0);
     }
 
     void Update()
@@ -49,12 +49,9 @@ public class EnemySpawner : MonoBehaviour
         this.levelCount++;
     }
 
-    public void SpawnAroundPlayer()
+    public void SpawnAroundPlayer(int level)
     {
-
-        // Clear previous enemies and angles
         ClearEnemies();
-
         angleStep = 360f / numberOfEnemies;
         for (int i = 0; i < numberOfEnemies; i++)
         {
@@ -68,7 +65,7 @@ public class EnemySpawner : MonoBehaviour
             ScaleEnemy(newEnemy, 1);
             enemies.Add(newEnemy);
         }
-        setLevelOfDifficulty(levelCount);
+        setLevelOfDifficulty(level);
     }
     
     private void RotateEnemiesAroundPlayer(float speed)

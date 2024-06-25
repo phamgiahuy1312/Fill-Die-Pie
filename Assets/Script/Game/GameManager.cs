@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
     private IEnumerator DelaySpawnEnemies()
     {
         yield return new WaitForSeconds(timedlayspawn);
-        enemySpawner.SpawnAroundPlayer();
+        enemySpawner.SpawnAroundPlayer(score);
     }
 
 }
