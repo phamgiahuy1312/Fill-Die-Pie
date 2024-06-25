@@ -1,12 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.UI;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
-using UnityEngine.UIElements;
-
-public class EnenySpawner : MonoBehaviour
+public class EnemySpawner : MonoBehaviour
 {
     public Transform player;
     public RectTransform canvasTransform;
@@ -17,7 +11,6 @@ public class EnenySpawner : MonoBehaviour
     {
         SpawnAroundPlayer();
     }
-
     // Update is called once per frame
     public void SpawnAroundPlayer()
     {
