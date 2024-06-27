@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
 
-    public float timedlayspawn = 2f;
     private EnemySpawner enemySpawner;
     public Text scoreText;
     private int score;
@@ -51,11 +50,10 @@ public class GameManager : MonoBehaviour
 
         if (GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
         {
-            print("All enemies shooted");
-            DestroyAllShootedEnemies();
+            StartCoroutine(waitDestroy());
             audioManager.PlaySFX(audioManager.Win);
             IncrementScore();
-            StartCoroutine(DelaySpawnEnemies());
+            StartCoroutine(waitSpawn());
         }
     }
 
@@ -69,10 +67,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private IEnumerator DelaySpawnEnemies()
+
+    IEnumerator waitDestroy()
     {
-        yield return new WaitForSeconds(timedlayspawn);
+           yield return new WaitForSeconds(0.5f);
+            DestroyAllShootedEnemies();
+    }
+
+    IEnumerator waitSpawn()
+    {
+        yield return new WaitForSeconds(1.5f);
         enemySpawner.SpawnAroundPlayer(score);
     }
+
 
 }
