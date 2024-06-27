@@ -8,8 +8,8 @@ using UnityEngine.UI;
 
 public class VolumeSetting : MonoBehaviour
 {
-    private int switchStateSFX = -1;
-    private int switchStateMusic = -1;
+    private int switchStateSFX = 1;
+    private int switchStateMusic = 1;
     public GameObject switchBtnSFX;
     public GameObject switchBtnMusic;
     public GameObject BackgroundSFX;
@@ -25,24 +25,35 @@ public class VolumeSetting : MonoBehaviour
     void Start()
     {
         audioManager = AudioManager.instance;
-
-        switchStateSFX = PlayerPrefs.GetInt("SFX", -1); 
-        switchStateMusic = PlayerPrefs.GetInt("Music", -1);  
-
+        // Load saved states from PlayerPrefs: 1(enabled)
+        switchStateSFX = PlayerPrefs.GetInt("SFX", 1); 
+        switchStateMusic = PlayerPrefs.GetInt("Music", 1);  
+        // Set state of switch buttons
         SetSwitchState(switchBtnSFX, BackgroundSFX, switchStateSFX, true);
         SetSwitchState(switchBtnMusic, BackgroundMusic, switchStateMusic, true);
-
+        // Mute audio sources
         audioManager.SFXSource.mute = switchStateSFX == -1;
         audioManager.SoundBackground.mute = switchStateMusic == -1;
+
+
     }
 
     public void OnSwitchButtonSFX()
     {
-        audioManager.PlaySFX(audioManager.Touch);
-        switchStateSFX = -switchStateSFX;
-        SetSwitchState(switchBtnSFX, BackgroundSFX, switchStateSFX, false);
-        audioManager.SFXSource.mute = switchStateSFX == -1;
 
+        if(switchStateSFX == -1)
+        {
+            audioManager.PlaySFX(audioManager.Touch);
+        }
+      
+        // Play touch sound
+        audioManager.PlaySFX(audioManager.Touch);
+        // Switch state
+        switchStateSFX = -switchStateSFX;
+        // Set switch state
+        SetSwitchState(switchBtnSFX, BackgroundSFX, switchStateSFX, false);
+        // Mute audio source
+        audioManager.SFXSource.mute = switchStateSFX == -1;
         
 
         // Save state
@@ -62,26 +73,35 @@ public class VolumeSetting : MonoBehaviour
 
     private void SetSwitchState(GameObject switchButton, GameObject backgroundSwitch ,int state, bool instant)
     {
-        float targetX = state == -1 
+        // Set position of switch button
+        float targetX = state == 1 
+            // if state is 1, set position to positive value of x
             ? Math.Abs(switchButton.transform.localPosition.x) 
+            // if state is -1, set position to negative value of x
             : -Math.Abs(switchButton.transform.localPosition.x);
 
+       // Move switch button to target position
         if (instant)
         {
-            switchButton.transform.localPosition = new Vector3(targetX, switchButton.transform.localPosition.y, switchButton.transform.localPosition.z);
+            // if instant is true, move switch button animation
+            switchButton.transform.DOLocalMoveX(targetX, 0);
         }
         else
         {
+            // if instant is false, move switch button with animation
             switchButton.transform.DOLocalMoveX(targetX, 0.2f);
         }
 
         Image backgroundSwitchImage = backgroundSwitch.GetComponent<Image>();
-        if (state == -1)
+
+        //on
+        if (state == 1)
         {
             //set background color #1E1D6D
             backgroundSwitchImage.color = new Color32(30, 29, 109, 255);
 
         }
+        //off
         else
         {
             //set background color #CECECE 
