@@ -23,7 +23,6 @@ public class Menu : MonoBehaviour
     // Hàm xử lý sự kiện click
     public void ButtonPlayGameClick()
     {
-
         audioManager.PlaySFX(audioManager.Touch);
         SceneManager.LoadScene("Game");
     }
