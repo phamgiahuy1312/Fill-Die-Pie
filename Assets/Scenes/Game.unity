@@ -482,6 +482,7 @@ MonoBehaviour:
   radius: 110
   speed: 2
   ShootForce: 1000
+  shootDirection: {x: 0, y: 0, z: 0}
 --- !u!50 &1063619575
 Rigidbody2D:
   serializedVersion: 4
@@ -649,7 +650,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000019073486, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 159.6637, y: 158.7314}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1183323339
@@ -717,7 +718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.091242336, g: 0.8489376, b: 0.8792453, a: 1}
+  m_Color: {r: 0.09019605, g: 0.84705883, b: 0.8784314, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1041,7 +1042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.39607844, g: 0.38431373, b: 0.8745098, a: 1}
+  m_Color: {r: 0.11372549, g: 0.20784314, b: 0.34117648, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

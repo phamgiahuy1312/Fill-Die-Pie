@@ -8,7 +8,6 @@ public class EnemySpawner : MonoBehaviour
     public float radius = 450f;
     private int numberOfEnemies = 3;
     private float speedOfRotation = 3f;
-    private float size = 1f;
     private bool isRotate = false;
     public GameObject enemyPrefab;
     private List<GameObject> enemies = new List<GameObject>();
