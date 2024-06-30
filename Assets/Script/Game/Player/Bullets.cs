@@ -15,7 +15,6 @@ public class Bullets : MonoBehaviour
     public float ShootForce = 1000f;
     private Vector3 initialPosition; //vị trí ban đầu của viên đạn
     public Vector3 shootDirection; //hướng bắn của viên đạn
-
     private GameManager gameManager;
 
     AudioManager audioManager;
@@ -73,7 +72,15 @@ public class Bullets : MonoBehaviour
             transform.position.y < 0 || 
             transform.position.y > Screen.height)
         {
-            SceneManager.LoadScene("Menu");
+            HealthManager.health--;
+            if (HealthManager.health <= 0)
+            {
+                SceneManager.LoadScene("Menu");
+            }
+            else
+            {
+                ResetBullet();
+            }
         }
     }
     //reset player scale
