@@ -8,10 +8,10 @@ using UnityEngine.SceneManagement;
 public class Bullets : MonoBehaviour
 {
     public Transform player; 
-    public float radius = 110f; 
+    [SerializeField] float radius = 130f; 
     public float speed = 2f;
     private float angle;
-    private bool isShooting = false;
+    public bool isShooting = false;
     public float ShootForce = 1000f;
     private Vector3 initialPosition; //vị trí ban đầu của viên đạn
     public Vector3 shootDirection; //hướng bắn của viên đạn
@@ -21,6 +21,7 @@ public class Bullets : MonoBehaviour
 
     private Vector3 originalPlayerScale;
 
+    private Options options;
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
@@ -31,10 +32,11 @@ public class Bullets : MonoBehaviour
         transform.position = player.position + new Vector3(radius, 0, 0);
         gameManager = FindObjectOfType<GameManager>();
         originalPlayerScale = player.localScale;
+        options = FindObjectOfType<Options>();
     }
     void Update()
     {
-        if(!isShooting)
+        if (!isShooting)
         {
             rotateBullet();
         }
@@ -75,14 +77,18 @@ public class Bullets : MonoBehaviour
             HealthManager.health--;
             if (HealthManager.health <= 0)
             {
-                SceneManager.LoadScene("Menu");
+                options.PanelGameOver();
+                ResetBullet();
             }
             else
             {
                 ResetBullet();
             }
+            
         }
     }
+
+    
     //reset player scale
     IEnumerator RestorePlayerScale(float delay)
     {

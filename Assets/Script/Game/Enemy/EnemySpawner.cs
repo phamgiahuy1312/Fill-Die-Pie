@@ -7,8 +7,8 @@ public class EnemySpawner : MonoBehaviour
     public RectTransform canvasTransform;
     public float radius = 450f;
     private int numberOfEnemies = 3;
-    private float speedOfRotation = 3f;
-    private bool isRotate = false;
+    public float speedOfRotation = 3f;
+    public bool isRotate = false;
     public GameObject enemyPrefab;
     private List<GameObject> enemies = new List<GameObject>();
     private List<float> angles = new List<float>();

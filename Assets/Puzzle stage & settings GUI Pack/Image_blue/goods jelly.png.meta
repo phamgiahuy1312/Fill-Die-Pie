@@ -1,0 +1,5288 @@
+fileFormatVersion: 2
+guid: 3b65451688d9fa342b0452991bc90243
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 847}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goods jelly_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8830821c60dbb478b04767046fbff0
+      internalID: 150586386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959a55163c0644340ba7e92d2bb4ccfc
+      internalID: 142809364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce041bf568a8cd459ad03d25ee4da8e
+      internalID: -1123387218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f141280652f4b544a736fb4f637cb68
+      internalID: 1641700000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc972f0085d3a714394bd7672f63e3be
+      internalID: -1239442518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2efb68178f2db741b53929b13e08b55
+      internalID: 1601959821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ae752870cc9754bb34871a7bff8162
+      internalID: -1782973752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f958c16dd3beece488a0000977e81428
+      internalID: 1496000177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_8
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 899
+        width: 261
+        height: 266
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbbc3c419342694baf3fc6a3f9ccc04
+      internalID: 562320893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2a84cebda287e41b13940bb4fd7590
+      internalID: -1209737782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc51938b7b77ad488f02bf43506d9c5
+      internalID: 720075842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcb2a8f52e32664299061b7578fea0a
+      internalID: 1562569655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1101
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c4335a2b6e04742b1bfdd9a8cf98f4
+      internalID: 786603949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e9c1b671a1ddf4ca4fe735238ff7d2
+      internalID: -1080465682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479278549dc6f2746b38610984a661a1
+      internalID: -775770197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f605a30c1a51544ab88e07f9577fee7
+      internalID: 1651820237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf95709a36eab34b868a0722c6506c7
+      internalID: -1275121680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cc3c7b9b1aba44594931cbce93f210
+      internalID: 1481911538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75fc3e8692477b4ba890985725c3ab3
+      internalID: -1504747838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f91d6a7c836ba4fbe41f4b2b848f50
+      internalID: -1991369194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ff5628e1b87724c8fc326f7c1ba3f3
+      internalID: 106591094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877af99934ba10e4383fd19e19094fd5
+      internalID: -175914627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2527a69e3d2ad240a84b0d8bcb60daa
+      internalID: -103678748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b6cb2fa3a805d428a4946831df7052
+      internalID: 1330365163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_24
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f0aa70d95ac3d4e8b50933d00aa899
+      internalID: 340777511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_25
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1037
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0baf7b7ac260aee42ae3dedcb0337375
+      internalID: -1592044483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b54a52ac7907d449bc0297e1c51c72
+      internalID: 1408783528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4e7f46ac6826348b9a5b60d99539cb
+      internalID: 1891334727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a74a1ff3648f6c4aa7f69f61ef07b69
+      internalID: 656133644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60a2f4c2093cef41b71973ff0c5273e
+      internalID: -41061486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3ab926b62b45b419424f1c7f9e68ec
+      internalID: 56083335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa47699a64346d43b901f5b9c1bdceb
+      internalID: -1060284857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382817c8545c3904cb9128bf2d484b4e
+      internalID: 1262536284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_33
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e75296cc9ad8145b85e783db832932
+      internalID: -1507905897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c99c86a972dc264ba9feb214e7cbf60
+      internalID: 1841752082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074e613cc15e42b47bc637c993c6d073
+      internalID: -153028810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2332b437f9f4ba349955b83655bad76b
+      internalID: 1532577085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_37
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d89fd341c0a4b46a6594d5da8d0104
+      internalID: 621707671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 973
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287d80f9d9d38cf469756a14e4f104a7
+      internalID: -1139417049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1c253b1f37dd3478fb0ff623d45316
+      internalID: 1004242383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89feebf34820ed4cad5e73ed53ad806
+      internalID: 1545233454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e95b7b8394d7dd4297d81ca14478e0d
+      internalID: -886160050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba90f5a9bf9e154db2deee251ce8e5e
+      internalID: -662393598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e4c4a41af9ead44b249d930da6139c
+      internalID: -386752196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911cd1d971d7a4842a023374e7613ab4
+      internalID: 843431190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4722e7d632ac1343a442ce58746f06b
+      internalID: 748473160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1ea9dc836b3b24c9b87dee5153ed55
+      internalID: 512509608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141d797a7e975c748892802ac22cf9b5
+      internalID: 487126414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af08b3eebb8babd4c80f6b88fb862766
+      internalID: 84078362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_49
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4b65045f0ff13409f01264a3df664d
+      internalID: 740793914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_50
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085b4281c3ac2b542adb46eb14d6360c
+      internalID: 748828951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 909
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e872a900d3e6f4b8c35820d6f132b3
+      internalID: 923713403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee02eab0bf36f54d94851fa50382499
+      internalID: -155403302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2e1d6c5d2e73a45afd045c9a308e63
+      internalID: -955138369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4fa8d9de4fd2448a5d653fbf989046
+      internalID: -1052430884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190e894bd87ea904d9f7d93f64aee84a
+      internalID: -672159505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869fe34c5b783d444a8ebdbced2f42dd
+      internalID: 724063111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc77a72cb4ecf2c4a9101efa9c3c7598
+      internalID: -914762956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943ba3a537649d740921361934c2a95c
+      internalID: -1039863099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2b605db91acfc4ca911cd3f07f8495
+      internalID: -137083173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed13015cf567ef9459108965572b1abc
+      internalID: -2044114331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdc6c189c56d1a4d81ed6f087525398
+      internalID: 1982126514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a81647c75a549443b00263109be5471
+      internalID: -720487785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_63
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890b13a2d9663ad4a8e0b96d779e4240
+      internalID: -576327400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_64
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 845
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7856d7204cbd0f41b51c2746d010d3f
+      internalID: -2130050171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6975a19dfdb10a74a94140c341b19220
+      internalID: -1768544769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eff654c70e32fc4e969e8c3758768bc
+      internalID: -406436581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce792b0676f9f324392c42b12a140ec1
+      internalID: 33845502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d59c6cdc9f84a64d9471a8912bd374e
+      internalID: -323753127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_69
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27b53f58e578ea4c92b2a605fd0d5b5
+      internalID: 1374386350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cc07da23078204bbf6b2b2026caa0c
+      internalID: 168761322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690e363489f11f24f8cf5553bf0f50dc
+      internalID: -1167367242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_72
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3203de3b36e3549a8a2c74193a3b1f
+      internalID: -1282829104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_73
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ae71ef6c96c7847aba0aa3a1b081a3
+      internalID: 1456599627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_74
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f58147712c98f4e9f6f6b5a5a44917
+      internalID: 1183516288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_75
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5e3f3b970b24c4ea1f21cd59336ec2
+      internalID: -1351374057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_76
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45ddc8fb62237e45a404e9208d3e662
+      internalID: -872815594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_77
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 781
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e6c3a042802b84fa4eac0eae168804
+      internalID: -169313033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f48a96eb3fc154b954fc0080618c37
+      internalID: 1934958011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f694dee6881f849bb42e11e18eca9e
+      internalID: 1425387409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae7ace72971be14986ce147ed0583ee
+      internalID: 506320775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f13582139c145419fd71a5fdb89261
+      internalID: -991285859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c92a7962a640b478dc973e9e8cf437
+      internalID: -1915947601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69748f2991a6be64292d311947e29bf5
+      internalID: -1738000959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031d1d39197471644b85e7903ff95550
+      internalID: -593411594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2ba7d5f33241e41b3f0af22832b9f4
+      internalID: 2028155253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbca2aa16c8e0c42b0db863f1da180d
+      internalID: -1797399066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_87
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217d9a16e2fdc5c4e8b09cccb79908d5
+      internalID: 1140517193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_88
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c933312377995bc43ad92ce2921389de
+      internalID: -1261787163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_89
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad048eff548449e4d90c39a00d80aa59
+      internalID: 742663726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_90
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 717
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e8498d779ce1f47a33c2f625b4bb30
+      internalID: -1868960647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5f297574d2a2c4c92d06bd1733ad64
+      internalID: -1844294986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cb92fc109190e4c8ae9b76e78cb8cc
+      internalID: -467522880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_93
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bd501a078a22e4c9e3bc9069235e01
+      internalID: -2111505730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f06a1d6eaa76e64eb8c7097daf9467e
+      internalID: -527049739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_95
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31812f7a8f049ae4fa54290dc131fdca
+      internalID: 1686324576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_96
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3fb1f422dc8d64483d3ea08bd2d7ce
+      internalID: 140381435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_97
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f890f1a5fad415a4e881cd90f4986ecc
+      internalID: -1659652091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_98
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b255ef2e3d4745541a47c7e5356cca22
+      internalID: 1428583642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_99
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c99c2b7b395b44e932adf44828e886
+      internalID: -442038603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_100
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9559bf117554986419f3ecbaf7e30b6e
+      internalID: -1371148928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_101
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7f6e124c432384bbc26594e26dd558
+      internalID: -626188823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_102
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298dc88af0c922c41bde92eb8e737174
+      internalID: 987006008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_103
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 653
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3687923a1bc81c4fbbe8aff3f02501f
+      internalID: -1283763125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059c6dd666b99e34ba252f66a1f965a0
+      internalID: -1714185525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bcc2e92be37d94bbb178f69d7f616c
+      internalID: -739366238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f34b87077642248963497ff818b695
+      internalID: -1864806401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_107
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c8962dc2d8c1b4eab2176b282ac5c4
+      internalID: -1709753711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55073170765f524cad67037c4c157c4
+      internalID: 1495336457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_109
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a9eed3675fae54f8a3e22706a6a482
+      internalID: -608493208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_110
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689d50e445b1d634391887ad4ab83dda
+      internalID: 524361577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_111
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e558f40d17a445b40a67193c815937ff
+      internalID: 310318071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_112
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49099f743eb6e743b7afe8f4346ef64
+      internalID: 1397894312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_113
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afcdbb347cb51c4897ff94ddfd45cb2
+      internalID: -1301108220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_114
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e469ff0c1c7c514790a2352236e3bbe
+      internalID: -511105272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_115
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b2330ea6336f74984ac2cc4bea95bd
+      internalID: -34659187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_116
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 589
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab8dfa56f5d7dd41ab335cc5f8765be
+      internalID: 903012522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc55ed2785205c49bbf4b5b52f81c9d
+      internalID: 1029930371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_118
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79da70938c412e489e1108300ad266c
+      internalID: -497725052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b3d6aef804f0c4daeed36ed4b7e8cb
+      internalID: 2094710288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_120
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83cce7049c1e904bb6a2a0fb7e67d5b
+      internalID: -81914164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_121
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2cc853cc6181d41ad1a1dfbfeac5b1
+      internalID: 1003343075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbf0a9b36517e34897c2389b1380875
+      internalID: 1181843093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_123
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bba85aef7453214b8bcb7e4e7182a06
+      internalID: -1766739303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_124
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c3363d46867ba4f97428c8b9ecebfd
+      internalID: 14070862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_125
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3bd6d4bc93ed14ba37ea82099a7c59
+      internalID: -479717345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_126
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c85dd081a4a138458f67f362562e494
+      internalID: -1312835619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_127
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61633d023413a664eb4890799f88b470
+      internalID: 365096610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_128
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfeda4fb5c33a0b439e50d5a89578ab2
+      internalID: 168182197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_129
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 525
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4ba8b4f717b9546aee9f6822f84c6a
+      internalID: -282201807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1f8887b0b55cf4aa5dcd9f6fb6e567
+      internalID: 1132488824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_131
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938cea3ca19271945b9d3c9ada8758da
+      internalID: -1284828125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea890dd50e700f42a1b748b9b7c0b87
+      internalID: 1314973982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8292046e2ca326b4085f0f218e03f9fa
+      internalID: 556391218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_134
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026defccb67f3cc479475a4fa4227098
+      internalID: -1838689230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_135
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798231c09775cd94ab285d5bb4a5a172
+      internalID: 138740507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_136
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0498fcceacd83494990817b8177a0445
+      internalID: -593310674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_137
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ebc48954d34ee468f527d9ddbdb7e0
+      internalID: 494347580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_138
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91654caaa1bb3dd4a9911f86e26f25e7
+      internalID: 802681883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_139
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f224aac546b5409c5ba4bf035a474
+      internalID: -998342677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_140
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326d980d5144bd74fb2c3bfca6d1fec1
+      internalID: -1749136005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_141
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fde729a3d421644b588714cd7da305
+      internalID: -1857425033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_142
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 461
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60d8696330a6674e8b6c47990191733
+      internalID: -746183217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56007fa6276288f4caa1e30bafdf56c5
+      internalID: -39957851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_144
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2267097f51dc09b4e9a3c3376e323124
+      internalID: -1296120897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_145
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bad226349956dc4bb7c40e188421afa
+      internalID: 123508382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_146
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c38cb6ea0ecd1409d101628ad0fab8
+      internalID: -1612804085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_147
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79431a57f9884064b8475f4ab8e20fcb
+      internalID: -325041432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_148
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef18ec6edf88f14994c07e7dd276334
+      internalID: -422638459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_149
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e07c1a843681fc44b832d4511a119e2
+      internalID: 549173140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_150
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ed34ab38a119847ab9118dbcdb0346
+      internalID: -805254129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_151
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff67f0b2de855c94e966144817a4ae57
+      internalID: 339510729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_152
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287e571cfb8a74845b2d1329e310d4ab
+      internalID: 1958003450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_153
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b639799a52877784c98622cbe56d532f
+      internalID: -1370689768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_154
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ec9f64a842ec54fa6d2c54419da020
+      internalID: -1306346181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_155
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 397
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dce36b4546233438446c60d735b747
+      internalID: 1704382958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e5eaf3545b8c344aa3706e573a8131
+      internalID: 170855770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_157
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fe2ca117833c04789ef510c575de61
+      internalID: 1849347692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_158
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2c1541ffc4e124bac8560b91c24344
+      internalID: -1883670418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_159
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7633b96bf53b6b743b56ecb7d37f9f56
+      internalID: -1899454394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_160
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e540e210bd312004e815be3934e75f45
+      internalID: 1648863688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_161
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b0967bb7f83aa4ba04d41f9730acef
+      internalID: -1021652934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_162
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c24eb0653109034897a8dd597697b5b
+      internalID: -1943838654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_163
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe2bab28b04fac4a85e8e51f6f92cf8
+      internalID: -171680333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_164
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6eb071565fa3e409adbee19838d514
+      internalID: -1820277553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_165
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f5270a353e3954ea71ea31f9f65fdd
+      internalID: 359593774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_166
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9b7a640dd3d17429e1f3b0db4ab444
+      internalID: 831214040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_167
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5002ce488cd6e44922da28724367d4
+      internalID: -1198171872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_168
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 333
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1208311f40f1e24f8e2b12c8999b408
+      internalID: -1629219361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ad87b669d607747869691da7e9bd92
+      internalID: -284228000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_170
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f18633672eef134ab9fc0811f105b80
+      internalID: 1020631481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c836771163fae984e9c308bfaccac2c5
+      internalID: 1213699910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_172
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf6fc7e64b2f26469e58c5a4fa6410e
+      internalID: -441959795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_173
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2d7dccf157f47438248e4893aabff3
+      internalID: 1066793356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_174
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f312b05087c210146887463c4b609653
+      internalID: -2012804223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_175
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1b8ef02e33f0a4385eee453d88e015
+      internalID: -509498702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_176
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1e2be1d0f556a42ad8d6d599d05067
+      internalID: -591903941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_177
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260eecb4ecd5111488fdc2fa2200de79
+      internalID: 945294622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_178
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa5048da1709f64088c6952ab3e5a55
+      internalID: -437631420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_179
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fb447c5ce29cb46ae7d52a7ee6479e
+      internalID: 200802339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_180
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66e1b2394dd1984b876045682d3665d
+      internalID: -1016370713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_181
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 269
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cf69e00830af141a348406ee85c0d1
+      internalID: -1277240394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ae302f4de06634ea378fc6faf0319f
+      internalID: 1135640931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_183
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec51ecb7501c314bbcbd14f360427ba
+      internalID: 1063754850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_184
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e57d576ae4818f4688760e609915f2c
+      internalID: 1757083347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_185
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35570404ae15a9645bb80f124c8cefc3
+      internalID: 859148504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_186
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80433bbef8bb4564898ce40d82dca8b6
+      internalID: 1911281903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_187
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ef2b816ab8758429b438525c96b456
+      internalID: -949934901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_188
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88a459b60d3ab446a050c9dfd2872a7
+      internalID: -10864290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_189
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d85689681d0714492cbdc970ae0f10
+      internalID: -281899451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_190
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669c322f1b8001247a5aaea0f97d3847
+      internalID: 666081083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_191
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d28c582c4a9e84458d782b1cfe5847d
+      internalID: -1438735265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_192
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cdd1266c1dfea41a20338b9fe9199b
+      internalID: 183540198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_193
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1341807f29bc8f340bec315e0fcda0c3
+      internalID: 2018469127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_194
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 205
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31f8f0fb5702a947b62155d5b71d6d9
+      internalID: -1642345437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f910ad8717156d48893f76a9e5d4cdc
+      internalID: 741967824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_196
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abd96bec9ba7844395b4e9f08ceb3c3
+      internalID: 207580572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_197
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467ba1a8a81ba5c4486fb95ed463c959
+      internalID: 1830965719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_198
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536935f994602fa4d8983adf39ae3f9e
+      internalID: 135564930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_199
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe904fa503daa640a02607a0c13a195
+      internalID: 1746004190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_200
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7d9d9ed581f614e85675e94e06903d
+      internalID: -1094752636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_201
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4ea4dac58cb3a4f995874593deeeb3
+      internalID: -1453429348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_202
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7877098345ad053408fba8fe52739967
+      internalID: -154405054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_203
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3786478010a40414b9945a81b70a5af4
+      internalID: -485712390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_204
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13295c2d050891741a259ae1d9d12635
+      internalID: 227252053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_205
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3e206a300df7541af4490baee4faae
+      internalID: 258040872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_206
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5faa1eacdb7cf1418a1b78f1cce087d
+      internalID: -1806319973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_207
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 141
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f27e0ab8f8959b4199855e5f2172fb7
+      internalID: 568291131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5bb19c98691144a8e2b787bc993b64
+      internalID: 583737278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_209
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee78f938e24b504eb80ac012869f9d0
+      internalID: -1960848393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_210
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fa2f6fca678aa4ea81855b56a40e03
+      internalID: -2055812529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_211
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b834befb0783db944bf457fda0bdded8
+      internalID: -1789097583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_212
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19c4c06fa49e124081269cdd7ba3af3
+      internalID: 687613164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_213
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5db5f775ebbf8479faa6e7cbea5e10
+      internalID: 2122669258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_214
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1425c852e79d649b47daf1aeb4074c
+      internalID: -1941395371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_215
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f191131837faade4681e8d3a5f5f842e
+      internalID: 943901915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_216
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbacdf6176021dc4084dffca6941cc0e
+      internalID: -479285170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_217
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb17d4f27e0d05468b4d19a29d0722c
+      internalID: 478901290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_218
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf1e4b5bbc421f4cb8aa834538f20b4
+      internalID: 2034513835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_219
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e3472fbd51fe149b32bb944638c47e
+      internalID: 1272513475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_220
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 77
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd690b908fd2904bb52c42d160311b5
+      internalID: 1540994355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_221
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48659b38e6066c4fa7dad2c2844088c
+      internalID: -1499240008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_222
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdcf5ab54c69c74fb6e4f906c72abe1
+      internalID: -450226957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_223
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55b7a7bb274de643bb3cc096b7e8186
+      internalID: 1905495876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_224
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5660d0470fc932540b186a9d06faf8b8
+      internalID: 352475305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_225
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13046ec510e77a4c9d2d4648d76e9fb
+      internalID: -1246573000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_226
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a492339a263f1194f8c9565cc6307497
+      internalID: -1948136433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_227
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ff7893ec16c104ab56930caf6a4eae
+      internalID: 1924177223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_228
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e412d8f3c0b1d4c82c34a6a85555ea
+      internalID: 884585520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_229
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bc545394cc6ca41843e5501390e536
+      internalID: -1302231707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_230
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1512e7e106daa6b49be73acfcd2c65f1
+      internalID: -432499012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_231
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3b218723ce03844a702f03581aa96b
+      internalID: 1371189753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_232
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50c806bc1628ae48a5b526d26d7c742
+      internalID: -426070825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goods jelly_233
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 13
+        width: 64
+        height: 64
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dfeb8f046e9df4db529acaa916b1ec
+      internalID: 1716947835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      goods jelly_0: 150586386
+      goods jelly_1: 142809364
+      goods jelly_10: 720075842
+      goods jelly_100: -1371148928
+      goods jelly_101: -626188823
+      goods jelly_102: 987006008
+      goods jelly_103: -1283763125
+      goods jelly_104: -1714185525
+      goods jelly_105: -739366238
+      goods jelly_106: -1864806401
+      goods jelly_107: -1709753711
+      goods jelly_108: 1495336457
+      goods jelly_109: -608493208
+      goods jelly_11: 1562569655
+      goods jelly_110: 524361577
+      goods jelly_111: 310318071
+      goods jelly_112: 1397894312
+      goods jelly_113: -1301108220
+      goods jelly_114: -511105272
+      goods jelly_115: -34659187
+      goods jelly_116: 903012522
+      goods jelly_117: 1029930371
+      goods jelly_118: -497725052
+      goods jelly_119: 2094710288
+      goods jelly_12: 786603949
+      goods jelly_120: -81914164
+      goods jelly_121: 1003343075
+      goods jelly_122: 1181843093
+      goods jelly_123: -1766739303
+      goods jelly_124: 14070862
+      goods jelly_125: -479717345
+      goods jelly_126: -1312835619
+      goods jelly_127: 365096610
+      goods jelly_128: 168182197
+      goods jelly_129: -282201807
+      goods jelly_13: -1080465682
+      goods jelly_130: 1132488824
+      goods jelly_131: -1284828125
+      goods jelly_132: 1314973982
+      goods jelly_133: 556391218
+      goods jelly_134: -1838689230
+      goods jelly_135: 138740507
+      goods jelly_136: -593310674
+      goods jelly_137: 494347580
+      goods jelly_138: 802681883
+      goods jelly_139: -998342677
+      goods jelly_14: -775770197
+      goods jelly_140: -1749136005
+      goods jelly_141: -1857425033
+      goods jelly_142: -746183217
+      goods jelly_143: -39957851
+      goods jelly_144: -1296120897
+      goods jelly_145: 123508382
+      goods jelly_146: -1612804085
+      goods jelly_147: -325041432
+      goods jelly_148: -422638459
+      goods jelly_149: 549173140
+      goods jelly_15: 1651820237
+      goods jelly_150: -805254129
+      goods jelly_151: 339510729
+      goods jelly_152: 1958003450
+      goods jelly_153: -1370689768
+      goods jelly_154: -1306346181
+      goods jelly_155: 1704382958
+      goods jelly_156: 170855770
+      goods jelly_157: 1849347692
+      goods jelly_158: -1883670418
+      goods jelly_159: -1899454394
+      goods jelly_16: -1275121680
+      goods jelly_160: 1648863688
+      goods jelly_161: -1021652934
+      goods jelly_162: -1943838654
+      goods jelly_163: -171680333
+      goods jelly_164: -1820277553
+      goods jelly_165: 359593774
+      goods jelly_166: 831214040
+      goods jelly_167: -1198171872
+      goods jelly_168: -1629219361
+      goods jelly_169: -284228000
+      goods jelly_17: 1481911538
+      goods jelly_170: 1020631481
+      goods jelly_171: 1213699910
+      goods jelly_172: -441959795
+      goods jelly_173: 1066793356
+      goods jelly_174: -2012804223
+      goods jelly_175: -509498702
+      goods jelly_176: -591903941
+      goods jelly_177: 945294622
+      goods jelly_178: -437631420
+      goods jelly_179: 200802339
+      goods jelly_18: -1504747838
+      goods jelly_180: -1016370713
+      goods jelly_181: -1277240394
+      goods jelly_182: 1135640931
+      goods jelly_183: 1063754850
+      goods jelly_184: 1757083347
+      goods jelly_185: 859148504
+      goods jelly_186: 1911281903
+      goods jelly_187: -949934901
+      goods jelly_188: -10864290
+      goods jelly_189: -281899451
+      goods jelly_19: -1991369194
+      goods jelly_190: 666081083
+      goods jelly_191: -1438735265
+      goods jelly_192: 183540198
+      goods jelly_193: 2018469127
+      goods jelly_194: -1642345437
+      goods jelly_195: 741967824
+      goods jelly_196: 207580572
+      goods jelly_197: 1830965719
+      goods jelly_198: 135564930
+      goods jelly_199: 1746004190
+      goods jelly_2: -1123387218
+      goods jelly_20: 106591094
+      goods jelly_200: -1094752636
+      goods jelly_201: -1453429348
+      goods jelly_202: -154405054
+      goods jelly_203: -485712390
+      goods jelly_204: 227252053
+      goods jelly_205: 258040872
+      goods jelly_206: -1806319973
+      goods jelly_207: 568291131
+      goods jelly_208: 583737278
+      goods jelly_209: -1960848393
+      goods jelly_21: -175914627
+      goods jelly_210: -2055812529
+      goods jelly_211: -1789097583
+      goods jelly_212: 687613164
+      goods jelly_213: 2122669258
+      goods jelly_214: -1941395371
+      goods jelly_215: 943901915
+      goods jelly_216: -479285170
+      goods jelly_217: 478901290
+      goods jelly_218: 2034513835
+      goods jelly_219: 1272513475
+      goods jelly_22: -103678748
+      goods jelly_220: 1540994355
+      goods jelly_221: -1499240008
+      goods jelly_222: -450226957
+      goods jelly_223: 1905495876
+      goods jelly_224: 352475305
+      goods jelly_225: -1246573000
+      goods jelly_226: -1948136433
+      goods jelly_227: 1924177223
+      goods jelly_228: 884585520
+      goods jelly_229: -1302231707
+      goods jelly_23: 1330365163
+      goods jelly_230: -432499012
+      goods jelly_231: 1371189753
+      goods jelly_232: -426070825
+      goods jelly_233: 1716947835
+      goods jelly_24: 340777511
+      goods jelly_25: -1592044483
+      goods jelly_26: 1408783528
+      goods jelly_27: 1891334727
+      goods jelly_28: 656133644
+      goods jelly_29: -41061486
+      goods jelly_3: 1641700000
+      goods jelly_30: 56083335
+      goods jelly_31: -1060284857
+      goods jelly_32: 1262536284
+      goods jelly_33: -1507905897
+      goods jelly_34: 1841752082
+      goods jelly_35: -153028810
+      goods jelly_36: 1532577085
+      goods jelly_37: 621707671
+      goods jelly_38: -1139417049
+      goods jelly_39: 1004242383
+      goods jelly_4: -1239442518
+      goods jelly_40: 1545233454
+      goods jelly_41: -886160050
+      goods jelly_42: -662393598
+      goods jelly_43: -386752196
+      goods jelly_44: 843431190
+      goods jelly_45: 748473160
+      goods jelly_46: 512509608
+      goods jelly_47: 487126414
+      goods jelly_48: 84078362
+      goods jelly_49: 740793914
+      goods jelly_5: 1601959821
+      goods jelly_50: 748828951
+      goods jelly_51: 923713403
+      goods jelly_52: -155403302
+      goods jelly_53: -955138369
+      goods jelly_54: -1052430884
+      goods jelly_55: -672159505
+      goods jelly_56: 724063111
+      goods jelly_57: -914762956
+      goods jelly_58: -1039863099
+      goods jelly_59: -137083173
+      goods jelly_6: -1782973752
+      goods jelly_60: -2044114331
+      goods jelly_61: 1982126514
+      goods jelly_62: -720487785
+      goods jelly_63: -576327400
+      goods jelly_64: -2130050171
+      goods jelly_65: -1768544769
+      goods jelly_66: -406436581
+      goods jelly_67: 33845502
+      goods jelly_68: -323753127
+      goods jelly_69: 1374386350
+      goods jelly_7: 1496000177
+      goods jelly_70: 168761322
+      goods jelly_71: -1167367242
+      goods jelly_72: -1282829104
+      goods jelly_73: 1456599627
+      goods jelly_74: 1183516288
+      goods jelly_75: -1351374057
+      goods jelly_76: -872815594
+      goods jelly_77: -169313033
+      goods jelly_78: 1934958011
+      goods jelly_79: 1425387409
+      goods jelly_8: 562320893
+      goods jelly_80: 506320775
+      goods jelly_81: -991285859
+      goods jelly_82: -1915947601
+      goods jelly_83: -1738000959
+      goods jelly_84: -593411594
+      goods jelly_85: 2028155253
+      goods jelly_86: -1797399066
+      goods jelly_87: 1140517193
+      goods jelly_88: -1261787163
+      goods jelly_89: 742663726
+      goods jelly_9: -1209737782
+      goods jelly_90: -1868960647
+      goods jelly_91: -1844294986
+      goods jelly_92: -467522880
+      goods jelly_93: -2111505730
+      goods jelly_94: -527049739
+      goods jelly_95: 1686324576
+      goods jelly_96: 140381435
+      goods jelly_97: -1659652091
+      goods jelly_98: 1428583642
+      goods jelly_99: -442038603
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

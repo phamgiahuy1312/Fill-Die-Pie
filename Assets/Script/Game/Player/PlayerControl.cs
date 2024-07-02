@@ -3,6 +3,7 @@
 public class PlayerControl : MonoBehaviour
 {
     private Bullets bulletScript;
+    public Rect touchArea;
 
     void Start()
     {
@@ -11,7 +12,7 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && touchArea.Contains(Input.mousePosition))
         {
             bulletScript.ShootBullet();
         }
