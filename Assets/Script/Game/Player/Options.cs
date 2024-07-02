@@ -20,6 +20,7 @@ public class Options : MonoBehaviour
     public GameObject GameOverPanel;
 
     private Bullets bullets;
+    public static bool isDialogActive = false;
     //private bool clickHealth = false;
     void Start()
     {
@@ -38,6 +39,7 @@ public class Options : MonoBehaviour
     {
 
         Dialog.SetActive(true);
+        isDialogActive = true;
         IconHealth.SetActive(true);
         ButtonAdsHeath.SetActive(true);
         IconSlow.SetActive(false);
@@ -49,6 +51,7 @@ public class Options : MonoBehaviour
     {
         HealthManager.health++;
         Dialog.SetActive(false);
+        isDialogActive = false;
         GameOverPanel.SetActive(false);
         Time.timeScale = 1;
         bullets.ResetBullet();
@@ -62,6 +65,7 @@ public class Options : MonoBehaviour
     {
         Dialog.SetActive(true);
         IconHealth.SetActive(false);
+        isDialogActive = true;
         ButtonAdsHeath.SetActive(false);
         IconSlow.SetActive(true);
         ButtonAdsSpeed.SetActive(true);
@@ -72,6 +76,7 @@ public class Options : MonoBehaviour
     {
         enemySpawner.speedOfRotation = enemySpawner.speedOfRotation / 3;
         Dialog.SetActive(false);
+        isDialogActive = false;
         Time.timeScale = 1;
         bullets.ResetBullet();
 
@@ -81,6 +86,7 @@ public class Options : MonoBehaviour
     public void CloseDialog()
     {
         Dialog.SetActive(false);
+        isDialogActive = false;
         Time.timeScale = 1;
         bullets.ResetBullet();
 
