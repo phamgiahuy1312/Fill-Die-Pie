@@ -18,10 +18,13 @@ public class Options : MonoBehaviour
     private HealthManager HealthManager;
     private EnemySpawner enemySpawner;
     public GameObject GameOverPanel;
+
+    private Bullets bullets;
     //private bool clickHealth = false;
     void Start()
     {
         enemySpawner = FindObjectOfType<EnemySpawner>();
+        bullets = FindObjectOfType<Bullets>();
     }
 
     public void EnableHealthOption(bool action)
@@ -35,6 +38,8 @@ public class Options : MonoBehaviour
     {
 
         Dialog.SetActive(true);
+        IconHealth.SetActive(true);
+        ButtonAdsHeath.SetActive(true);
         IconSlow.SetActive(false);
         ButtonAdsSpeed.SetActive(false);
         Time.timeScale = 0;
@@ -42,10 +47,13 @@ public class Options : MonoBehaviour
     }
     public void AddHealth()
     {
-        Time.timeScale = 1;
         HealthManager.health++;
         Dialog.SetActive(false);
         GameOverPanel.SetActive(false);
+        Time.timeScale = 1;
+        bullets.ResetBullet();
+
+
     }
 
     //============== OPTION SPEED =================
@@ -55,21 +63,27 @@ public class Options : MonoBehaviour
         Dialog.SetActive(true);
         IconHealth.SetActive(false);
         ButtonAdsHeath.SetActive(false);
+        IconSlow.SetActive(true);
+        ButtonAdsSpeed.SetActive(true);
         Time.timeScale = 0;
     }
 
     public void SlowSpeed()
     {
-        Time.timeScale = 1;
         enemySpawner.speedOfRotation = enemySpawner.speedOfRotation / 3;
         Dialog.SetActive(false);
+        Time.timeScale = 1;
+        bullets.ResetBullet();
+
     }
 
     //close dialog
     public void CloseDialog()
     {
-        Time.timeScale = 1;
         Dialog.SetActive(false);
+        Time.timeScale = 1;
+        bullets.ResetBullet();
+
     }
 
     public void PanelGameOver()
