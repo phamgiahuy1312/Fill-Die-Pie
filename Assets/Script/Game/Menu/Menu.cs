@@ -19,7 +19,8 @@ public class Menu : MonoBehaviour
     void Start()
     {
         UpdateBestScore();
-    }   
+        Time.timeScale = 1;
+    }
     // Hàm xử lý sự kiện click
     public void ButtonPlayGameClick()
     {

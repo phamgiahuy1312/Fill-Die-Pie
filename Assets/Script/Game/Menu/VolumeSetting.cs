@@ -97,15 +97,14 @@ public class VolumeSetting : MonoBehaviour
         //on
         if (state == 1)
         {
-            //set background color #1E1D6D
-            backgroundSwitchImage.color = new Color32(30, 29, 109, 255);
-
+            //set background color #5AC6FE
+            backgroundSwitchImage.color = new Color32(90, 198, 254, 255);
         }
         //off
         else
         {
-            //set background color #CECECE 
-            backgroundSwitchImage.color = new Color32(206, 206, 206, 255);
+            //set background color #D9D9D9
+            backgroundSwitchImage.color = new Color32(217, 217, 217, 255);
         }
     }
 }

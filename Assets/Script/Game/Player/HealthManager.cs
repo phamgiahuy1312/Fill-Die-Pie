@@ -7,11 +7,15 @@ public class HealthManager : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
-
+    private Options options;
 
     void Awake()
     {
         health = 2;
+    }
+    void Start()
+    {
+        options = FindObjectOfType<Options>();
     }
     // Update is called once per frame
     void Update()
@@ -23,6 +27,14 @@ public class HealthManager : MonoBehaviour
         for (int i = 0; i < health; i++)
         {
             hearts[i].sprite = fullHeart;
+        }
+        if(health < 2)
+        {
+            options.EnableHealthOption(true);
+        }
+        else
+        {
+           options.EnableHealthOption(false);
         }
     }
 }
