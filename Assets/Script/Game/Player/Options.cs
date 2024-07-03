@@ -8,16 +8,20 @@ public class Options : MonoBehaviour
 {
     public GameObject PanelOption;
     public Button HealthOption;
+    public Button SpeedOption;
     public GameObject IconSlow;
     public GameObject IconHealth;
     public GameObject ButtonAdsHeath;
     public GameObject ButtonAdsSpeed;
     public GameObject Dialog;
     private Bullets bulletScript;
-    private HealthManager HealthManager;
     private EnemySpawner enemySpawner;
     private RewardedAds rewardedAds;
     public GameObject GameOverPanel;
+
+    public int TouchHealthCount = 0;
+    public int TouchSpeedCount = 0;
+
     private Bullets bullets;
     public static bool isDialogActive = false;
     //private bool clickHealth = false;
@@ -35,10 +39,27 @@ public class Options : MonoBehaviour
             Debug.Log("rewardedAds assigned successfully.");
         }
     }
-
-    public void EnableHealthOption(bool action)
+    void Update()
     {
-        HealthOption.interactable = action;
+        if(TouchHealthCount == 2)
+        {
+            StateHealthOption(false);
+        }
+        if(TouchSpeedCount == 2)
+        {
+            StateSpeedOption(false);
+        }
+    }
+
+
+    public void StateHealthOption(bool state)
+    {
+        HealthOption.interactable = state;
+    }
+
+    public void StateSpeedOption(bool state)
+    {
+        SpeedOption.interactable = state;
     }
 
     //============== OPTION HEALTH =================
@@ -63,6 +84,7 @@ public class Options : MonoBehaviour
 
         rewardedAds.ShowAd(() =>
         {
+            TouchHealthCount++;
             HealthManager.health++;
             Dialog.SetActive(false);
             // isDialogActive = false;
@@ -91,6 +113,7 @@ public class Options : MonoBehaviour
         
         rewardedAds.ShowAd(() =>
         {
+            TouchSpeedCount++;
             enemySpawner.speedOfRotation = enemySpawner.speedOfRotation / 3;
             Dialog.SetActive(false);
             // isDialogActive = false;
