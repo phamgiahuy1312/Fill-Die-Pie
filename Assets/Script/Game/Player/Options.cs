@@ -9,15 +9,18 @@ public class Options : MonoBehaviour
 
     public GameObject PanelOption;
     public Button HealthOption;
+    public Button SpeedOption;
     public GameObject IconSlow;
     public GameObject IconHealth;
     public GameObject ButtonAdsHeath;
     public GameObject ButtonAdsSpeed;
     public GameObject Dialog;
     private Bullets bulletScript;
-    private HealthManager HealthManager;
     private EnemySpawner enemySpawner;
     public GameObject GameOverPanel;
+
+    public int TouchHealthCount = 0;
+    public int TouchSpeedCount = 0;
 
     private Bullets bullets;
     public static bool isDialogActive = false;
@@ -27,10 +30,27 @@ public class Options : MonoBehaviour
         enemySpawner = FindObjectOfType<EnemySpawner>();
         bullets = FindObjectOfType<Bullets>();
     }
-
-    public void EnableHealthOption(bool action)
+    void Update()
     {
-        HealthOption.interactable = action;
+        if(TouchHealthCount == 2)
+        {
+            StateHealthOption(false);
+        }
+        if(TouchSpeedCount == 2)
+        {
+            StateSpeedOption(false);
+        }
+    }
+
+
+    public void StateHealthOption(bool state)
+    {
+        HealthOption.interactable = state;
+    }
+
+    public void StateSpeedOption(bool state)
+    {
+        SpeedOption.interactable = state;
     }
 
     //============== OPTION HEALTH =================
@@ -49,14 +69,13 @@ public class Options : MonoBehaviour
     }
     public void AddHealth()
     {
+        TouchHealthCount++;
         HealthManager.health++;
         Dialog.SetActive(false);
         isDialogActive = false;
         GameOverPanel.SetActive(false);
         Time.timeScale = 1;
         bullets.ResetBullet();
-
-
     }
 
     //============== OPTION SPEED =================
@@ -74,6 +93,7 @@ public class Options : MonoBehaviour
 
     public void SlowSpeed()
     {
+        TouchSpeedCount++;
         enemySpawner.speedOfRotation = enemySpawner.speedOfRotation / 3;
         Dialog.SetActive(false);
         isDialogActive = false;

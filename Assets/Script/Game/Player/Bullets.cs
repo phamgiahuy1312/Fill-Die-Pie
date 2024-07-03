@@ -16,7 +16,6 @@ public class Bullets : MonoBehaviour
     private Vector3 initialPosition; //vị trí ban đầu của viên đạn
     public Vector3 shootDirection; //hướng bắn của viên đạn
     private GameManager gameManager;
-
     AudioManager audioManager;
 
     private Vector3 originalPlayerScale;
@@ -66,28 +65,37 @@ public class Bullets : MonoBehaviour
         //scale player theo trục x
         player.localScale = new Vector3(originalPlayerScale.x + 0.3f, originalPlayerScale.y, originalPlayerScale.z);
         //reset player scale
-        StartCoroutine(RestorePlayerScale(0.1f));
-
+        StartCoroutine(RestorePlayerScale(0.2f));
         //check if bullet is out of screen
         if (transform.position.x < 0 || 
             transform.position.x > Screen.width || 
             transform.position.y < 0 || 
             transform.position.y > Screen.height)
         {
-            HealthManager.health--;
-            if (HealthManager.health <= 0)
-            {
-                options.PanelGameOver();
-                ResetBullet();
-            }
-            else
-            {
-                ResetBullet();
-            }
-            
+            BulletOutScreen();
         }
     }
 
+    public void BulletOutScreen()
+    {
+        ResetBullet();
+        HealthManager.health--;
+        if (HealthManager.health <= 0)
+        {
+            if (options.TouchHealthCount < 2)
+            {
+                options.PanelGameOver();
+            }
+            else
+            {
+                SceneManager.LoadScene("Menu");
+            }
+        }
+        else
+        {
+            ResetBullet();
+        }
+    }
     
     //reset player scale
     IEnumerator RestorePlayerScale(float delay)
@@ -100,6 +108,7 @@ public class Bullets : MonoBehaviour
     {
         transform.position = player.position + new Vector3(radius, 0, 0);
         isShooting = false;
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
