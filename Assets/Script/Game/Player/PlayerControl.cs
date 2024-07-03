@@ -12,6 +12,10 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {
+        if(Options.isDialogActive)
+        {
+            return;
+        }
         if (Input.GetMouseButtonDown(0) && touchArea.Contains(Input.mousePosition))
         {
             bulletScript.ShootBullet();

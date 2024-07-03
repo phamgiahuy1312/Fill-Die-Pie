@@ -18,12 +18,14 @@ public class Options : MonoBehaviour
     private EnemySpawner enemySpawner;
     private RewardedAds rewardedAds;
     public GameObject GameOverPanel;
+    private Bullets bullets;
+    public static bool isDialogActive = false;
     //private bool clickHealth = false;
     void Start()
     {
         enemySpawner = FindObjectOfType<EnemySpawner>();
         rewardedAds = FindObjectOfType<RewardedAds>();
-
+        bullets = FindObjectOfType<Bullets>();
         if (rewardedAds == null)
         {
             Debug.LogError("rewardedAds is not assigned!");
@@ -44,6 +46,9 @@ public class Options : MonoBehaviour
     public void OnClickHealthOption()
     {
         Dialog.SetActive(true);
+        isDialogActive = true;
+        IconHealth.SetActive(true);
+        ButtonAdsHeath.SetActive(true);
         IconSlow.SetActive(false);
         ButtonAdsSpeed.SetActive(false);
         Time.timeScale = 0;
@@ -58,10 +63,12 @@ public class Options : MonoBehaviour
 
         rewardedAds.ShowAd(() =>
         {
-            Time.timeScale = 1;
             HealthManager.health++;
             Dialog.SetActive(false);
+            // isDialogActive = false;
             GameOverPanel.SetActive(false);
+            Time.timeScale = 1;
+            bullets.ResetBullet();
         });
     }
 
@@ -71,31 +78,46 @@ public class Options : MonoBehaviour
     {
         Dialog.SetActive(true);
         IconHealth.SetActive(false);
+        isDialogActive = true;
         ButtonAdsHeath.SetActive(false);
+        IconSlow.SetActive(true);
+        ButtonAdsSpeed.SetActive(true);
         Time.timeScale = 0;
     }
 
     public void SlowSpeed()
     {
-        Time.timeScale = 1;
-        enemySpawner.speedOfRotation = enemySpawner.speedOfRotation / 3;
-        Dialog.SetActive(false);
+        
+        
+        rewardedAds.ShowAd(() =>
+        {
+            enemySpawner.speedOfRotation = enemySpawner.speedOfRotation / 3;
+            Dialog.SetActive(false);
+            // isDialogActive = false;
+            Time.timeScale = 1;
+            bullets.ResetBullet();
+        });
     }
 
     //close dialog
     public void CloseDialog()
     {
-        Time.timeScale = 1;
         Dialog.SetActive(false);
+        isDialogActive = false;
+        Time.timeScale = 1;
+        bullets.ResetBullet();
     }
 
     public void PanelGameOver()
     {
         Time.timeScale = 0;
         GameOverPanel.SetActive(true);
+        isDialogActive = true;
     }
+    
     public void ClickBackToMenu()
     {
         SceneManager.LoadScene("Menu");
+        isDialogActive = false;
     }
 }

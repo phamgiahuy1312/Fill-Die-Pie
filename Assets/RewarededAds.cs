@@ -130,8 +130,10 @@ public class RewardedAds : MonoBehaviour
         // Raised when the ad closed full screen content.
         ad.OnAdFullScreenContentClosed += () =>
         {
+            Options.isDialogActive = false;
             this.LoadAd(() =>
             {
+                Options.isDialogActive = true;
                 Debug.Log("Rewarded ad is ready.");
             });
             Debug.Log("Rewarded ad full screen content closed.");
