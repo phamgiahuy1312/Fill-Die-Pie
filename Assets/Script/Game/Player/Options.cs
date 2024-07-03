@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class Options : MonoBehaviour
 {
-
     public GameObject PanelOption;
     public Button HealthOption;
     public GameObject IconSlow;
@@ -17,11 +16,22 @@ public class Options : MonoBehaviour
     private Bullets bulletScript;
     private HealthManager HealthManager;
     private EnemySpawner enemySpawner;
+    private RewardedAds rewardedAds;
     public GameObject GameOverPanel;
     //private bool clickHealth = false;
     void Start()
     {
         enemySpawner = FindObjectOfType<EnemySpawner>();
+        rewardedAds = FindObjectOfType<RewardedAds>();
+
+        if (rewardedAds == null)
+        {
+            Debug.LogError("rewardedAds is not assigned!");
+        }
+        else
+        {
+            Debug.Log("rewardedAds assigned successfully.");
+        }
     }
 
     public void EnableHealthOption(bool action)
@@ -33,19 +43,26 @@ public class Options : MonoBehaviour
 
     public void OnClickHealthOption()
     {
-
         Dialog.SetActive(true);
         IconSlow.SetActive(false);
         ButtonAdsSpeed.SetActive(false);
         Time.timeScale = 0;
-
     }
     public void AddHealth()
     {
-        Time.timeScale = 1;
-        HealthManager.health++;
-        Dialog.SetActive(false);
-        GameOverPanel.SetActive(false);
+        if (rewardedAds == null)
+        {
+            Debug.LogError("rewardedAds is not assigned in AddHealth!");
+            return;
+        }
+
+        rewardedAds.ShowAd(() =>
+        {
+            Time.timeScale = 1;
+            HealthManager.health++;
+            Dialog.SetActive(false);
+            GameOverPanel.SetActive(false);
+        });
     }
 
     //============== OPTION SPEED =================
@@ -81,6 +98,4 @@ public class Options : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
-
-
 }
