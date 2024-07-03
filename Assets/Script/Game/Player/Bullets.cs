@@ -56,16 +56,21 @@ public class Bullets : MonoBehaviour
         float angleToBullet = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         player.rotation = Quaternion.Euler(new Vector3(0, 0, angleToBullet));
     }
-    public void ShootBullet()
-    {
-        isShooting = true;
-        shootDirection = (transform.position - player.position).normalized;
-        transform.position += shootDirection * ShootForce * Time.deltaTime;
 
+    public void animationPlayer()
+    {
         //scale player theo trục x
         player.localScale = new Vector3(originalPlayerScale.x + 0.3f, originalPlayerScale.y, originalPlayerScale.z);
         //reset player scale
         StartCoroutine(RestorePlayerScale(0.2f));
+    }
+    public void ShootBullet()
+    {
+        // isShooting = true;
+        shootDirection = (transform.position - player.position).normalized;
+        transform.position += shootDirection * ShootForce * Time.deltaTime;
+
+        
         //check if bullet is out of screen
         if (transform.position.x < 0 || 
             transform.position.x > Screen.width || 
