@@ -30,11 +30,11 @@ public class HealthManager : MonoBehaviour
         }
         if(health < 2)
         {
-            options.EnableHealthOption(true);
+            options.StateHealthOption(true);
         }
         else
         {
-           options.EnableHealthOption(false);
+           options.StateHealthOption(false);
         }
     }
 }
