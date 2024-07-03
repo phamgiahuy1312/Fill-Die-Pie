@@ -114,7 +114,7 @@ public class Options : MonoBehaviour
         rewardedAds.ShowAd(() =>
         {
             TouchSpeedCount++;
-            enemySpawner.speedOfRotation = enemySpawner.speedOfRotation / 3;
+            enemySpawner.speedOfRotation = enemySpawner.speedOfRotation / 2;
             Dialog.SetActive(false);
             // isDialogActive = false;
             Time.timeScale = 1;
@@ -136,6 +136,7 @@ public class Options : MonoBehaviour
         Time.timeScale = 0;
         GameOverPanel.SetActive(true);
         isDialogActive = true;
+        TouchHealthCount++;
     }
     
     public void ClickBackToMenu()

@@ -18,7 +18,8 @@ public class PlayerControl : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(0) && touchArea.Contains(Input.mousePosition))
         {
-            bulletScript.ShootBullet();
+            bulletScript.animationPlayer();
+            bulletScript.isShooting = true;
         }
     }
 }

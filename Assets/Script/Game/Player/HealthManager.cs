@@ -28,13 +28,14 @@ public class HealthManager : MonoBehaviour
         {
             hearts[i].sprite = fullHeart;
         }
-        if(health < 2)
+        if(health == 2) options.StateHealthOption(false);
+        if(health < 2 && options.TouchHealthCount < 2)
         {
             options.StateHealthOption(true);
         }
-        else
-        {
-           options.StateHealthOption(false);
-        }
+        // else
+        // {
+        //    options.StateHealthOption(false);
+        // }
     }
 }
