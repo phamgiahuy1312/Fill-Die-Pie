@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class Options : MonoBehaviour
 {
-
     public GameObject PanelOption;
     public Button HealthOption;
     public Button SpeedOption;
@@ -17,6 +16,7 @@ public class Options : MonoBehaviour
     public GameObject Dialog;
     private Bullets bulletScript;
     private EnemySpawner enemySpawner;
+    private RewardedAds rewardedAds;
     public GameObject GameOverPanel;
 
     public int TouchHealthCount = 0;
@@ -28,7 +28,16 @@ public class Options : MonoBehaviour
     void Start()
     {
         enemySpawner = FindObjectOfType<EnemySpawner>();
+        rewardedAds = FindObjectOfType<RewardedAds>();
         bullets = FindObjectOfType<Bullets>();
+        if (rewardedAds == null)
+        {
+            Debug.LogError("rewardedAds is not assigned!");
+        }
+        else
+        {
+            Debug.Log("rewardedAds assigned successfully.");
+        }
     }
     void Update()
     {
@@ -57,7 +66,6 @@ public class Options : MonoBehaviour
 
     public void OnClickHealthOption()
     {
-
         Dialog.SetActive(true);
         isDialogActive = true;
         IconHealth.SetActive(true);
@@ -65,17 +73,25 @@ public class Options : MonoBehaviour
         IconSlow.SetActive(false);
         ButtonAdsSpeed.SetActive(false);
         Time.timeScale = 0;
-
     }
     public void AddHealth()
     {
-        TouchHealthCount++;
-        HealthManager.health++;
-        Dialog.SetActive(false);
-        isDialogActive = false;
-        GameOverPanel.SetActive(false);
-        Time.timeScale = 1;
-        bullets.ResetBullet();
+        if (rewardedAds == null)
+        {
+            Debug.LogError("rewardedAds is not assigned in AddHealth!");
+            return;
+        }
+
+        rewardedAds.ShowAd(() =>
+        {
+            TouchHealthCount++;
+            HealthManager.health++;
+            Dialog.SetActive(false);
+            // isDialogActive = false;
+            GameOverPanel.SetActive(false);
+            Time.timeScale = 1;
+            bullets.ResetBullet();
+        });
     }
 
     //============== OPTION SPEED =================
@@ -93,13 +109,17 @@ public class Options : MonoBehaviour
 
     public void SlowSpeed()
     {
-        TouchSpeedCount++;
-        enemySpawner.speedOfRotation = enemySpawner.speedOfRotation / 3;
-        Dialog.SetActive(false);
-        isDialogActive = false;
-        Time.timeScale = 1;
-        bullets.ResetBullet();
-
+        
+        
+        rewardedAds.ShowAd(() =>
+        {
+            TouchSpeedCount++;
+            enemySpawner.speedOfRotation = enemySpawner.speedOfRotation / 3;
+            Dialog.SetActive(false);
+            // isDialogActive = false;
+            Time.timeScale = 1;
+            bullets.ResetBullet();
+        });
     }
 
     //close dialog
@@ -109,18 +129,18 @@ public class Options : MonoBehaviour
         isDialogActive = false;
         Time.timeScale = 1;
         bullets.ResetBullet();
-
     }
 
     public void PanelGameOver()
     {
         Time.timeScale = 0;
         GameOverPanel.SetActive(true);
+        isDialogActive = true;
     }
+    
     public void ClickBackToMenu()
     {
         SceneManager.LoadScene("Menu");
+        isDialogActive = false;
     }
-
-
 }
