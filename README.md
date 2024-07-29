@@ -9,3 +9,7 @@ FILL DIE PIE
 ![Health+](https://github.com/phamgiahuy1312/Fill-Die-Pie/assets/74062263/7a19b26f-cddd-4099-81d0-a6b7927fab85)
 
 ![Speed-](https://github.com/phamgiahuy1312/Fill-Die-Pie/assets/74062263/23d15e9c-9fd4-4197-8b00-5b5c3f6e0b8d)
+
+
+https://github.com/user-attachments/assets/fd747062-59dd-4c2d-bda9-d1d77c07a245
+
